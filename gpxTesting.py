@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import math
 
-gpx_file = open('c:/code/python/HSCTDashboard/data/hsct.gpx', 'r')
+gpx_file = open('hsct.gpx', 'r')
 gpx = gpxpy.parse(gpx_file)
 
 
